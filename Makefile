@@ -2,7 +2,7 @@ update:
 	git pull --rebase
 
 install:
-	ln --backup=numbered -s -r tmux.conf $(HOME)/.tmux.conf
+	ln --backup=numbered -n -s -r tmux.conf $(HOME)/.tmux.conf
 
 Makefile: ; # Do not remake makefile.
 
