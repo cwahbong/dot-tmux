@@ -1,9 +1,13 @@
-.rc.tmux
+dot-tmux
 ========
 
 Config file for [tmux](https://tmux.github.io/), a terminal multiplexer.
 
-Usage
+Install
 -----
 
-See [.rc](../../../.rc) for details.
+Install as an [ellipsis](https://github.com/ellipsis/ellipsis) package.
+
+```bash
+ellipsis install https://github.com/cwahbong/dot-tmux
+```
